@@ -1,0 +1,169 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+}
+
+header {
+    background-color: #e74c3c; /* Cabeçalho vermelho */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111111; /* Fundo cinza-escuro */
+    padding: 2rem;
+    color: #FFFFFF;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #e74c3c; /* Botão vermelho */
+    color: #FFFFFF;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b; /* Vermelho mais escuro ao passar o mouse */
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.bg-light {
+    background-color: #222222; /* Cinza bem escuro para contraste */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.feature-item {
+    max-width: 30%;
+    text-align: center;
+}
+
+.feature-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para a seção de vídeo */
+.video-container {
+    margin-top: 2rem;
+}
+
+.video-container h3 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+video {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000000; /* Texto preto nos inputs */
+}
+
+form button {
+    background-color: #e74c3c; /* Botão de formulário vermelho */
+    color: #FFFFFF;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #111111; /* Fundo preto no rodapé */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

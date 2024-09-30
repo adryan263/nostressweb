@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Stress Gaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>No Stress Gaming</h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Recrute e Seja Recrutado</h2>
+            <p>Encontre os melhores jogadores para a sua equipe, ou entre para o time perfeito.</p>
+            <a href="#como-funciona" class="btn-primary">Saiba Mais</a>
+        </div>
+        <img src="img/IMG-20240717-WA0014.jpg" alt="Jogadores Conectados" class="hero-image">
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre o No Stress Gaming</h2>
+        <p>No Stress Gaming é a plataforma ideal para recrutar jogadores casuais ou competitivos, sem estresse.</p>
+    </section>
+
+    <section id="como-funciona" class="section bg-light">
+        <h2>Como Funciona?</h2>
+        <div class="features">
+            <div class="feature-item">
+                <img src="img/recutadores.jpg" alt="Recrutamento" class="feature-image">
+                <h3>Recrute Jogadores</h3>
+                <p>Crie um perfil de recrutador e comece a montar sua equipe dos sonhos.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/p5tciynxhmbd1.png" alt="Seja Recrutado" class="feature-image">
+                <h3>Seja Recrutado</h3>
+                <p>Configure seu perfil de jogador e seja convidado para partidas e campeonatos.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/vem tranquilo.webp" alt="Sem Estresse" class="feature-image">
+                <h3>Sem Estresse</h3>
+                <p>Nosso sistema fácil de usar garante que você se concentre no jogo e não na busca.</p>
+            </div>
+        </div>
+        
+        <!-- Adicionando vídeo com imagem de pré-visualização -->
+        <div class="video-container">
+            <video controls poster="video/video stress.mp4">
+                <source src="video/video stress.mp4" type="video/mp4">
+                <source src="video-demo.webm" type="video/webm">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Entre em Contato</h2>
+        <form action="#">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Seu Email">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem"></textarea>
+            
+            <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 No Stress Gaming. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
